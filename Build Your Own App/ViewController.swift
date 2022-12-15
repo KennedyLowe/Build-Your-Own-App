@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var photoChanger: UIImageView!
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(pl,
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func changeWithPressed(_ sender: Any) {
+    }
+    
+    
+    
+    
+    
 }
 
