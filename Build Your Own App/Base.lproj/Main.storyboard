@@ -135,7 +135,10 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
+                        <outlet property="englishLabel" destination="6v7-R4-aEh" id="VuN-TT-O2k"/>
+                        <outlet property="frenchLabel" destination="lhe-im-Hvq" id="cyg-vO-mh8"/>
                         <outlet property="photoChanger" destination="abN-x0-Qfh" id="IjA-P2-J9d"/>
+                        <outlet property="spanishLabel" destination="6mD-NR-hRw" id="a29-1o-F8C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

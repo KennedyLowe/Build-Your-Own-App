@@ -22,13 +22,14 @@ class ViewController: UIViewController {
     
    
     @IBAction func colorRed(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "redDress"))
+        
 
     }
     @IBAction func colorOrange(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "orange"))
     }
-    @IBAction func colorYellow(_ sender: UIButton) { print (photoChanger.image = UIImage (named: ""))
+    @IBAction func colorYellow(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "yellow"))
     }
-    @IBAction func colorGreen(_ sender: UIButton) { print (photoChanger.image = UIImage (named: ""))
+    @IBAction func colorGreen(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "green"))
     }
     @IBAction func colorBlue(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "blueFlower"))
     }
