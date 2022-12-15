@@ -11,7 +11,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var photoChanger: UIImageView!
     override func viewDidLoad() {
-        super.viewDidLoad(pl,
+        super.viewDidLoad(
+        
+        )
         // Do any additional setup after loading the view.
     }
     
