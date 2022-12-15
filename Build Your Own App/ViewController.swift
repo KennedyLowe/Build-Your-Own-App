@@ -19,6 +19,23 @@ class ViewController: UIViewController {
     
     @IBAction func changeWithPressed(_ sender: Any) {
     }
+    @IBOutlet var colorOrange: UIView!
+    @IBAction func colorYellow(_ sender: Any) {
+    }
+    @IBAction func colorGreen(_ sender: Any) {
+    }
+    @IBAction func colorBlue(_ sender: Any) {
+    }
+    @IBAction func colorPurple(_ sender: Any) {
+    }
+    @IBAction func colorWhite(_ sender: Any) {
+    }
+    @IBAction func colorPink(_ sender: Any) {
+    }
+    @IBAction func colorBlack(_ sender: Any) {
+    }
+    @IBAction func colorGrey(_ sender: Any) {
+    }
     
     
     
