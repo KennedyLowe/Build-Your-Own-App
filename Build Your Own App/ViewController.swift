@@ -8,7 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var englishLabel: UILabel!
+    @IBOutlet weak var spanishLabel: UILabel!
+    @IBOutlet weak var frenchLabel: UILabel!
+    
     @IBOutlet weak var photoChanger: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad(
@@ -18,26 +21,29 @@ class ViewController: UIViewController {
     }
     
    
-    @IBAction func colorRed(_ sender: UIButton) {
+    @IBAction func colorRed(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "redDress"))
+
     }
-    @IBAction func colorOrange(_ sender: UIButton) {
+    @IBAction func colorOrange(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "orange"))
     }
-    @IBAction func colorYellow(_ sender: UIButton) {
+    @IBAction func colorYellow(_ sender: UIButton) { print (photoChanger.image = UIImage (named: ""))
     }
-    @IBAction func colorGreen(_ sender: UIButton) {
+    @IBAction func colorGreen(_ sender: UIButton) { print (photoChanger.image = UIImage (named: ""))
     }
-    @IBAction func colorBlue(_ sender: UIButton) {
+    @IBAction func colorBlue(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "blueFlower"))
     }
-    @IBAction func colorPurple(_ sender: UIButton) {
+    @IBAction func colorPurple(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "purple"))
     }
-    @IBAction func colorWhite(_ sender: UIButton) {
+    @IBAction func colorWhite(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "white"))
     }
-    @IBAction func colorPink(_ sender: UIButton) {
+    @IBAction func colorPink(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "pink"))
     }
-    @IBAction func colorBlack(_ sender: UIButton) {
+    @IBAction func colorBlack(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "black"))
     }
-    @IBAction func colorGrey(_ sender: UIButton) {
+    @IBAction func colorGrey(_ sender: UIButton) { print (photoChanger.image = UIImage (named: "greypt2"))
     }
+    
+    
     
     
     
