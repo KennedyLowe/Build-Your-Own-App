@@ -17,24 +17,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func changeWithPressed(_ sender: Any) {
+   
+    @IBAction func colorRed(_ sender: UIButton) {
     }
-    @IBOutlet var colorOrange: UIView!
-    @IBAction func colorYellow(_ sender: Any) {
+    @IBAction func colorOrange(_ sender: UIButton) {
     }
-    @IBAction func colorGreen(_ sender: Any) {
+    @IBAction func colorYellow(_ sender: UIButton) {
     }
-    @IBAction func colorBlue(_ sender: Any) {
+    @IBAction func colorGreen(_ sender: UIButton) {
     }
-    @IBAction func colorPurple(_ sender: Any) {
+    @IBAction func colorBlue(_ sender: UIButton) {
     }
-    @IBAction func colorWhite(_ sender: Any) {
+    @IBAction func colorPurple(_ sender: UIButton) {
     }
-    @IBAction func colorPink(_ sender: Any) {
+    @IBAction func colorWhite(_ sender: UIButton) {
     }
-    @IBAction func colorBlack(_ sender: Any) {
+    @IBAction func colorPink(_ sender: UIButton) {
     }
-    @IBAction func colorGrey(_ sender: Any) {
+    @IBAction func colorBlack(_ sender: UIButton) {
+    }
+    @IBAction func colorGrey(_ sender: UIButton) {
     }
     
     
